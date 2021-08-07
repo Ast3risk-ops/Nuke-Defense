@@ -4,13 +4,13 @@ from os import system
 system('color 0A')
 print("The year is 1985")
 sleep(1)
-print("Ro(n)(a)ld Regan i(s) president of the Unied States Of (a)merica")
+print("Ro(n)(a)ld Regan i(s) president of the Unied States Of (A)merica")
 sleep(2)
-print("You are the captain of a nuclear submarine carrying nukes ((d)uh)")
+print("You are the captain of a nuclear submarine carrying nukes ((D)uh)")
 sleep(2)
 print("You use the co(m)puter")
 sleep(1)
-print("The Nuke PC (i)s Loadi(n)g...")
+print("The Nuke PC (I)s Loadi(n)g...")
 sleep(4)
 print()
 sleep(0.5)
@@ -32,7 +32,7 @@ print()
 while True:
     print("Login please.")
     username = input("username> ")
-    if username == "nasadmin":
+    if username == "nasADmIn":
         password = input("password> ")
         if password == "password":
             print("Login Success!")
@@ -47,6 +47,7 @@ while True:
         sleep(1)
         print("Is it up there?")
         sleep(2)
+        print("Oh, and it's in sensitive case")
 print("You have succesfully logged in!")
 sleep(1)
 print()
