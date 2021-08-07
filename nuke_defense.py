@@ -150,6 +150,7 @@ if choose1 == "1":
     sleep(2)
     print("They kill you and the other crew memeber")
     sleep(2)
+# ASCII art that doesn't display properly in the terminal
     print("""
 
 
@@ -185,6 +186,6 @@ if choose1 == "1":
 elif choose1 == "2":
     print("You get ready to barge open the door")
     sleep(3)
-
+    print("You barge open the door")
 else:
     exit(["ERR_NO_INPUT"])
