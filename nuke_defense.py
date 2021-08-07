@@ -184,5 +184,7 @@ if choose1 == "1":
     sleep(4)
 elif choose1 == "2":
     print("You get ready to barge open the door")
+    sleep(3)
+
 else:
     exit(["ERR_NO_INPUT"])
