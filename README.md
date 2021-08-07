@@ -8,6 +8,7 @@ You will need os and time.
 Open a terminal and type...
 ```
 ```
+
 Windows:
 ```bash
 pip install time os
