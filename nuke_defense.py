@@ -182,3 +182,7 @@ if choose1 == "1":
     sleep(2)
     print("Restart the script to restart")
     sleep(4)
+elif choose1 == "2":
+    print("You get ready to barge open the door")
+else:
+    exit(["ERR_NO_INPUT"])
