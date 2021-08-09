@@ -4,6 +4,11 @@ from os import system
 def cont():
     print("The Nuke PC Is Loading...")
     sleep(4)
+    print("Autologin enabled")
+    sleep(1)
+    print("Loading...")
+    sleep(2)
+    print("What would you like to do?")
     ()
 system('color 0A')
 print("The year is 1985")
