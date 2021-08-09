@@ -2,7 +2,8 @@ from time import sleep
 from os import system
 # Look at Python project.txt
 def cont():
-    print("")
+    print("The Nuke PC Is Loading...")
+    sleep(4)
     ()
 system('color 0A')
 print("The year is 1985")
