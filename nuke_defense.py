@@ -1,6 +1,9 @@
 from time import sleep
 from os import system
 # Look at Python project.txt
+def cont():
+
+    ()
 system('color 0A')
 print("The year is 1985")
 sleep(1)
@@ -184,8 +187,6 @@ if choose1 == "1":
     print("Restart the script to restart")
     sleep(4)
 elif choose1 == "2":
-    print("You get ready to barge open the door")
-    sleep(3)
-    print("You barge open the door")
+    cont()
 else:
     exit(["ERR_NO_INPUT"])
