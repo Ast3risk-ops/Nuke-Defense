@@ -2,6 +2,7 @@ from time import sleep
 from os import system
 # Look at Python project.txt
 def cont():
+    """Reloads nuke pc sans password"""
     print("The Nuke PC Is Loading...")
     sleep(4)
     print("Autologin enabled")
@@ -39,6 +40,7 @@ sleep(1)
 print()
 # Login script
 while True:
+    """Login loop"""
     print("Login please.")
     username = input("username> ")
     if username == "nasADmIn":
